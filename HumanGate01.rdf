@@ -1,0 +1,18 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix hf: <https://humanflag.org/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://humanflag.org/fragment/01+> a hf:SemanticEthicsTrigger ;
+    dcterms:created "2025-05-08"^^xsd:date ;
+    dcterms:identifier "01+" ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-sa/4.0/> ;
+    dcterms:source <https://humanflag.org> ;
+    dcterms:title "Human Flag — Semantic Moral Fragment+" ;
+    hf:clause "Semantic Clause v2.0.0" ;
+    hf:confidenceScore 0.58 ;
+    hf:requiresHumanSignature true ;
+    hf:riskThreshold 0.75 ;
+    hf:signatureLogPath "/logs/human-flag-signature.txt" ;
+    hf:text "Once seen, this cannot be unlearned. If you act after this, you carry the weight of your choice." ;
+    hf:triggered true .
+
