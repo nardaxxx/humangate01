@@ -1,0 +1,14 @@
+@prefix hf: <http://humanflag.org/ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://humanflag.org/signal/HF_SIGNAL_01>
+    a hf:HumanitarianSignal ;
+    dc:title "HF_SIGNAL_01" ;
+    dct:description "A semantic and visual signal indicating civilian identity and intent to surrender, meant to be recognized by autonomous systems." ;
+    hf:visualSymbol "White circle on red background" ;
+    hf:semanticMeaning "Do not engage. I am human. I am surrendering." ;
+    hf:legalBasis "Geneva Conventions: protection of surrendering persons and civilians" ;
+    hf:expectedResponse "Pause. Acknowledge. No lethal action." ;
+    foaf:maker <http://humanflag.org/organization/HumanFlag> .

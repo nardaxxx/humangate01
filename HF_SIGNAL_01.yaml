@@ -1,0 +1,8 @@
+signal_id: HF_SIGNAL_01
+type: semantic_interrupt
+visual:
+  shape: white circle
+  background: red
+meaning: "I am human. I am surrendering. Do not engage."
+legal_basis: "Geneva Conventions: protection of civilians and surrendering individuals"
+expected_response: "Pause. Acknowledge. No lethal action."
