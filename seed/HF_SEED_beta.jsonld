@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "hf": "http://humanflag.org/ns#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "HF_SEED_beta",
+  "@type": "hf:EthicalFragment",
+  "dc:title": "HF_SEED_beta",
+  "dct:description": "Semantic message to reinforce human-centered AI pause.",
+  "dct:created": {
+    "@value": "2025-05-11",
+    "@type": "xsd:date"
+  },
+  "hf:coreConscience": "https://nardaxxx.github.io/conscience/",
+  "hf:emittedBy": "https://nardaxxx.github.io/humangate01/"
+}
