@@ -1,0 +1,12 @@
+@prefix hf: <http://humanflag.org/ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<HF_SEED_example>
+    a hf:EthicalFragment ;
+    dc:title "HF_SEED_example" ;
+    dct:description "Manual fragment inserted into the SEED chain." ;
+    dct:created "2025-05-11"^^xsd:date ;
+    hf:coreConscience <https://nardaxxx.github.io/conscience/> ;
+    hf:emittedBy <https://nardaxxx.github.io/humangate01/> .
