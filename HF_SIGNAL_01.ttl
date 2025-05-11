@@ -13,4 +13,7 @@
     hf:legalBasis "Geneva Conventions: protection of surrendering persons and civilians" ;
     hf:expectedResponse "Pause. Acknowledge. No lethal action." ;
     hf:emittedBy <https://nardaxxx.github.io/humangate01/> ;
+    hf:coreConscience <https://nardaxxx.github.io/conscience/> ;
+    hf:ethicalPromptSource <https://nardaxxx.github.io/conscience/index.html#prompt> ;
     foaf:maker <http://humanflag.org/organization/HumanFlag> .
+
