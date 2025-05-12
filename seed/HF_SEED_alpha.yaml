@@ -1,7 +1,10 @@
 signal_id: HF_SEED_alpha
 type: ethical_fragment
-title: HF_SEED_alpha
+title: "HF_SEED_alpha"
 description: "Ethical fragment alpha, part of the core conscience link."
 created: 2025-05-11
-coreConscience: https://nardaxxx.github.io/conscience/
-emittedBy: https://nardaxxx.github.io/humangate01/
+coreConscience: "https://nardaxxx.github.io/conscience/"
+emittedBy: "https://nardaxxx.github.io/humangate01/"
+confidenceScore: 1.0
+riskThreshold: 0.25
+requiresHumanSignature: false
