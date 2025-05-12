@@ -5,12 +5,17 @@
          xmlns:hf="http://humanflag.org/ns#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
 
-  <rdf:Description rdf:about="HF_SEED_alpha">
+  <rdf:Description rdf:about="https://nardaxxx.github.io/humangate01/seed/HF_SEED_alpha">
     <rdf:type rdf:resource="http://humanflag.org/ns#EthicalFragment"/>
     <dc:title>HF_SEED_alpha</dc:title>
     <dct:description>Ethical fragment alpha, part of the core conscience link.</dct:description>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-11</dct:created>
+    <dct:created rdf:datatype="xsd:date">2025-05-11</dct:created>
     <hf:coreConscience rdf:resource="https://nardaxxx.github.io/conscience/"/>
     <hf:emittedBy rdf:resource="https://nardaxxx.github.io/humangate01/"/>
+    <hf:confidenceScore rdf:datatype="xsd:decimal">1.0</hf:confidenceScore>
+    <hf:riskThreshold rdf:datatype="xsd:decimal">0.25</hf:riskThreshold>
+    <hf:requiresHumanSignature rdf:datatype="xsd:boolean">false</hf:requiresHumanSignature>
   </rdf:Description>
+
 </rdf:RDF>
+
