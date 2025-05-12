@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nardaxxx.github.io/humangate01/sitemap.xml
