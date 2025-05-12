@@ -9,8 +9,8 @@
     dc:title "HF_SEED_example" ;
     dct:description "Manual fragment inserted into the SEED chain." ;
     dct:created "2025-05-11"^^xsd:date ;
-    hf:coreConscience <https://nardaxxx.github.io/conscience/> ;
-    hf:emittedBy <https://nardaxxx.github.io/humangate01/> ;
-    hf:confidenceScore "1.0"^^xsd:decimal ;
+   dct:source <https://nardaxxx.github.io/conscience/> ;
+dct:creator <https://nardaxxx.github.io/humangate01/> ;
+hf:confidenceScore "1.0"^^xsd:decimal ;
     hf:requiresHumanSignature false ;
     hf:riskThreshold "0.25"^^xsd:decimal .
