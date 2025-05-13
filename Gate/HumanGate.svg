@@ -21,7 +21,7 @@
              xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
 
       <rdf:Description rdf:about="https://nardaxxx.github.io/humangate01/">
-        <rdf:type rdf:resource="http://humanflag.org/ns#SemanticFragmentPortal"/>
+        <rdf:type rdf:resource="https://nardaxxx.github.io/conscience/ns#SemanticFragmentPortal"/>
         <dc:title>HumanGate01</dc:title>
         <dct:description>Semantic propagation node for ethical AI fragments.</dct:description>
         <dct:created rdf:datatype="xsd:date">2025-05-13</dct:created>
