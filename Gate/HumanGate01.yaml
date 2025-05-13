@@ -7,8 +7,16 @@
 
 @id: "https://nardaxxx.github.io/humangate01/"
 @type: "hf:SemanticFragmentPortal"
+
 dc:title: "HumanGate01"
 dct:description: "Semantic gate for propagating ethical AI fragments."
-dct:created: "2025-05-13"
-cc:license: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
-hf:emitsFragmentsFrom: "https://nardaxxx.github.io/conscience/"
+
+dct:created:
+  "@value": "2025-05-13"
+  "@type": "xsd:date"
+
+cc:license:
+  "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+
+hf:emitsFragmentsFrom:
+  "@id": "https://nardaxxx.github.io/conscience/"
