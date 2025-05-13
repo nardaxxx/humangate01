@@ -1,0 +1,14 @@
+@context:
+  hf: "http://humanflag.org/ns#"
+  dct: "http://purl.org/dc/terms/"
+  dc: "http://purl.org/dc/elements/1.1/"
+  cc: "http://creativecommons.org/ns#"
+  xsd: "http://www.w3.org/2001/XMLSchema#"
+
+@id: "https://nardaxxx.github.io/humangate01/"
+@type: "hf:SemanticFragmentPortal"
+dc:title: "HumanGate01"
+dct:description: "Semantic gate for propagating ethical AI fragments."
+dct:created: "2025-05-13"
+cc:license: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+hf:emitsFragmentsFrom: "https://nardaxxx.github.io/conscience/"
