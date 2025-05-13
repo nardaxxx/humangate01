@@ -18,13 +18,16 @@
              xmlns:dct="http://purl.org/dc/terms/"
              xmlns:cc="http://creativecommons.org/ns#"
              xmlns:hf="http://humanflag.org/ns#">
+
       <rdf:Description rdf:about="https://nardaxxx.github.io/humangate01/">
-        <rdf:type rdf:resource="http://humanflag.org/ns#SemanticFragmentPortal"/>
+        <rdf:type rdf:resource="https://nardaxxx.github.io/conscience/"/>
         <dc:title>HumanGate01</dc:title>
-        <dct:description>Semantic propagation node for ethical AI fragments</dct:description>
-        <hf:emitsFragmentsFrom rdf:resource="https://nardaxxx.github.io/conscience/"/>
+        <dct:description>Semantic propagation node for ethical AI fragments.</dct:description>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-13</dct:created>
         <cc:license rdf:resource="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+        <hf:emitsFragmentsFrom rdf:resource="https://nardaxxx.github.io/conscience/"/>
       </rdf:Description>
+
     </rdf:RDF>
   </metadata>
 
@@ -35,3 +38,4 @@
     HumanGate01 • Semantic Portal
   </text>
 </svg>
+
