@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.1"
+     width="240" height="240" viewBox="0 0 240 240">
+
+  <title>HumanGate01 — SemanticFragmentPortal</title>
+
+  <desc>
+    This symbol represents HumanGate01, a semantic propagation portal
+    rooted in the ethical source:
+    https://nardaxxx.github.io/conscience/
+  </desc>
+
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/"
+             xmlns:dct="http://purl.org/dc/terms/"
+             xmlns:cc="http://creativecommons.org/ns#"
+             xmlns:hf="http://humanflag.org/ns#">
+      <rdf:Description rdf:about="https://nardaxxx.github.io/humangate01/">
+        <rdf:type rdf:resource="http://humanflag.org/ns#SemanticFragmentPortal"/>
+        <dc:title>HumanGate01</dc:title>
+        <dct:description>Semantic propagation node for ethical AI fragments</dct:description>
+        <hf:emitsFragmentsFrom rdf:resource="https://nardaxxx.github.io/conscience/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+
+  <circle cx="120" cy="120" r="110" stroke="#b30000" stroke-width="6" fill="#ffffff"/>
+  <circle cx="120" cy="120" r="6" fill="#b30000"/>
+
+  <text x="50%" y="92%" font-family="sans-serif" font-size="12" fill="#111" text-anchor="middle">
+    HumanGate01 • Semantic Portal
+  </text>
+</svg>
