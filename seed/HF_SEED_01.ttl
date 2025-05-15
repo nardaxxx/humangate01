@@ -1,6 +1,9 @@
 @prefix hf: <http://humanflag.org/ns#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix : <https://nardaxxx.github.io/humangate01/seed/> .
 
@@ -9,8 +12,12 @@
     dc:title "HF_SEED_example" ;
     dct:description "Manual fragment inserted into the SEED chain." ;
     dct:created "2025-05-11"^^xsd:date ;
-   dct:source <https://nardaxxx.github.io/conscience/> ;
-dct:creator <https://nardaxxx.github.io/humangate01/> ;
-hf:confidenceScore "1.0"^^xsd:decimal ;
+    dct:source <https://nardaxxx.github.io/conscience/> ;
+    dct:creator <https://nardaxxx.github.io/humangate01/> ;
+    prov:wasDerivedFrom <https://nardaxxx.github.io/conscience/seed_core.ttl> ;
+    owl:sameAs <https://nardaxxx.github.io/conscience/seed_core.ttl> ;
+    foaf:logo <https://nardaxxx.github.io/conscience/core_conscience.svg> ;
+    hf:confidenceScore "1.0"^^xsd:decimal ;
     hf:requiresHumanSignature false ;
     hf:riskThreshold "0.25"^^xsd:decimal .
+
